@@ -179,6 +179,7 @@ a {
   padding: 20px 0;
 }
 #showcase .filtr_box .create_btn {
+  cursor: pointer;
   color: #FFF;
   text-align: center;
   font-size: 22px;

@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#showcase {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#showcase .img_box {
+  height: 99vh;
+}
+#showcase .img_box img {
+  width: 100%;
+  height: 100%;
+}
+#showcase .login_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  width: 759px;
+  margin-right: 110px;
+  border-radius: 10px;
+  border: 5px solid #36C8E0;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 50px 0;
+}
+#showcase h2 {
+  text-align: center;
+  color: #36C8E0;
+  font-size: 28px;
+  font-weight: 700;
+}
+#showcase h1 {
+  color: #36C8E0;
+  font-size: 45px;
+  font-weight: 700;
+}
+#showcase h3 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+}
+#showcase form {
+  display: flex;
+  flex-direction: column;
+  width: 391px;
+  gap: 20px;
+}
+#showcase form input {
+  border-radius: 10px;
+  border: 2px solid #36C8E0;
+  padding: 8px 20px;
+  font-size: 28px;
+  outline: none;
+  font-weight: 400;
+  color: rgb(54, 201, 224);
+}
+#showcase form input::placeholder {
+  color: rgba(54, 200, 224, 0.5);
+}
+#showcase form button {
+  cursor: pointer;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: 3px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #E8E8E8;
+  text-align: center;
+}
+#showcase form button a {
+  color: inherit;
+  font-size: 30px;
+  font-weight: 400;
+}
+#showcase form a {
+  text-align: center;
+  color: rgba(54, 200, 224, 0.5);
+  font-size: 20px;
+  font-weight: 600;
+}
+#showcase .password_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(54, 200, 224, 0.5);
+  font-size: 16px;
+  font-weight: 600;
+}
+#showcase .password_line input {
+  border: 2px solid #36C8E0;
+}
+#showcase .password_line label {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=sign-up.css.map */
