@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#navbar {
+  margin: 63px 0;
+}
+#navbar .navbar_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar h1 {
+  background-color: #EE34F2;
+  color: #fff;
+  padding: 10px 25px 0 5px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+#navbar .search_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 35%;
+}
+#navbar input {
+  border: none;
+  outline: none;
+  margin: 14px 20px;
+  width: 90%;
+}
+#navbar input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+}
+#navbar button {
+  background-color: #8A2BE2;
+  padding: 13px 15px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+#navbar h2 {
+  color: #8A2BE2;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  width: 300px;
+}
+#navbar h2 span {
+  font-size: 50px;
+}
+
+#showcase .showcase_section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 50px;
+}
+#showcase .data_struction {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+#showcase .data_struction_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+  text-align: center;
+  padding: 25px;
+  border: 2px solid #EE34F2;
+  border-radius: 20px;
+}
+#showcase .data_struction_box h1 {
+  color: #161B23;
+  font-size: 22px;
+  font-weight: 400;
+}
+#showcase .data_struction_box h2 {
+  color: #161B23;
+  font-size: 22px;
+  font-weight: 700;
+}
+#showcase .children_data {
+  overflow-y: scroll;
+  height: 450px;
+  margin-top: 50px;
+  padding-right: 10px;
+  grid-column: 1/2;
+}
+#showcase .children_data_box {
+  border: 2px solid #EE34F2;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#showcase .children_data_box h1 {
+  color: #161B23;
+  font-size: 22px;
+  font-weight: 600;
+}
+#showcase .children_data_box h2 {
+  color: #161B23;
+  font-size: 20px;
+  font-weight: 400;
+}
+#showcase .children_data_box h2 span {
+  font-weight: 600;
+}
+#showcase .children_box_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding: 20px 0 20px 15px;
+  text-align: center;
+  border-left: 1px solid #EE34F2;
+}
+#showcase .filtr_box {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+#showcase .filtr_box form {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  gap: 60px;
+  border-radius: 20px;
+  border: 2px solid #EE34F2;
+  background: #FFF;
+  padding: 50px 30px;
+}
+#showcase .filtr_box a {
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  border: 2px solid #EE34F2;
+  background: #EE34F2;
+  padding: 27px 5px;
+}
+#showcase .filtr_box button {
+  cursor: pointer;
+}
+#showcase .filtr_box .btn {
+  color: #161B23;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 2px solid #EE34F2;
+  background: #FFF;
+  padding: 20px 0;
+}
+#showcase .filtr_box .create_btn {
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 50px;
+  background: #8A2BE2;
+  padding: 20px 0;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */
