@@ -31,11 +31,16 @@ a {
   align-items: center;
 }
 #navbar h1 {
-  background-color: #EE34F2;
+  background-color: #FC6C85;
   color: #fff;
   padding: 10px 25px 0 5px;
   letter-spacing: 5px;
   font-weight: 600;
+}
+#navbar .search_btn {
+  display: flex;
+  width: 35%;
+  gap: 15px;
 }
 #navbar .search_bar {
   display: flex;
@@ -43,7 +48,7 @@ a {
   justify-content: space-between;
   background-color: #fff;
   border-radius: 50px;
-  width: 35%;
+  width: 100%;
 }
 #navbar input {
   border: none;
@@ -57,21 +62,86 @@ a {
   font-weight: 400;
 }
 #navbar button {
-  background-color: #8A2BE2;
+  background-color: #FA8072;
   padding: 13px 15px;
   border-radius: 50px;
   border: none;
   cursor: pointer;
 }
 #navbar h2 {
-  color: #8A2BE2;
-  text-align: center;
+  color: #FA8072;
+  text-align: left;
   font-size: 32px;
   font-weight: 700;
-  width: 300px;
+  width: 310px;
 }
 #navbar h2 span {
   font-size: 50px;
+}
+#navbar .right_title_bar {
+  position: relative;
+}
+#navbar .right_title_bar .right_btn {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+#navbar .notification_btn {
+  position: relative;
+  z-index: -8;
+}
+#navbar .notification_btn h3 {
+  position: absolute;
+  top: -8px;
+  right: -4px;
+}
+#navbar #checked {
+  display: none;
+}
+#navbar #checked:checked ~ .modal_bar {
+  transform: translate(0);
+}
+#navbar #checked:checked ~ .modal_checked {
+  transform: translate(0);
+}
+#navbar .btn_checked {
+  position: relative;
+}
+#navbar .modal_checked {
+  position: fixed;
+  background: rgba(17, 17, 17, 0.2);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+  transition: 0.1s;
+}
+#navbar .modal_bar {
+  position: fixed;
+  top: 80px;
+  right: 140px;
+  background-color: #fff;
+  width: 80vw;
+  padding: 30px 60px 250px;
+  border-radius: 20px;
+  border: 2px solid #FC6C85;
+  transform: translateX(200%);
+  transition: all 0.6s ease-in-out;
+}
+#navbar .modal_bar h4 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+#navbar .modal_bar span {
+  color: #FC6C85;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 #showcase .showcase_section {
@@ -92,7 +162,7 @@ a {
   row-gap: 5px;
   text-align: center;
   padding: 25px;
-  border: 2px solid #EE34F2;
+  border: 2px solid #FC6C85;
   border-radius: 20px;
 }
 #showcase .data_struction_box h1 {
@@ -113,7 +183,7 @@ a {
   grid-column: 1/2;
 }
 #showcase .children_data_box {
-  border: 2px solid #EE34F2;
+  border: 2px solid #FC6C85;
   border-radius: 20px;
   padding: 12px 20px;
   margin-top: 42px;
@@ -140,7 +210,7 @@ a {
   gap: 13px;
   padding: 20px 0 20px 15px;
   text-align: center;
-  border-left: 1px solid #EE34F2;
+  border-left: 1px solid #FC6C85;
 }
 #showcase .filtr_box {
   grid-column: 2/3;
@@ -153,7 +223,7 @@ a {
   width: 340px;
   gap: 60px;
   border-radius: 20px;
-  border: 2px solid #EE34F2;
+  border: 2px solid #FC6C85;
   background: #FFF;
   padding: 50px 30px;
 }
@@ -162,8 +232,8 @@ a {
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  border: 2px solid #EE34F2;
-  background: #EE34F2;
+  border: 2px solid #FC6C85;
+  background: #FC6C85;
   padding: 27px 5px;
 }
 #showcase .filtr_box button {
@@ -175,7 +245,7 @@ a {
   font-size: 22px;
   font-weight: 600;
   border-radius: 20px;
-  border: 2px solid #EE34F2;
+  border: 2px solid #FC6C85;
   background: #FFF;
   padding: 20px 0;
 }
@@ -186,9 +256,9 @@ a {
   font-size: 22px;
   font-weight: 600;
   border-radius: 50px;
-  background: #8A2BE2;
+  background: #FA8072;
   padding: 20px 0;
   border: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=notification-style.css.map */

@@ -1,3 +1,4 @@
+@import "./variables";
 #navbar{
     margin: 63px 0;
     .navbar_section{
@@ -7,7 +8,7 @@
     }
 
     h1{
-        background-color: #EE34F2;
+        background-color: $mainColor;
         color: #fff;
         padding: 10px 25px 0 5px;
         letter-spacing: 5px;

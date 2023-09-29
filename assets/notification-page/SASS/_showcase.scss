@@ -84,7 +84,6 @@
         grid-column: 2/3;
         grid-row: 1/3;
         margin-bottom: 50px;
-
         form{
             display: flex;
             flex-direction: column;
@@ -128,7 +127,7 @@
             font-size: 22px;
             font-weight: 600;
             border-radius: 50px;
-            background: #8A2BE2;
+            background: $secondColor;
             padding: 20px 0;
             border: none;
         }
